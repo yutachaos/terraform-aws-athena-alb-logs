@@ -1,4 +1,3 @@
-
 resource "aws_athena_named_query" "create_table" {
   name      = "${var.database_name}_${var.table_name}_create_table"
   workgroup = var.workgroup_id

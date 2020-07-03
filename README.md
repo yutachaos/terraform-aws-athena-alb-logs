@@ -19,14 +19,14 @@ No requirements.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| bucket\_location | S3 path where alb log is output | `string` | n/a | yes |
-| database\_name | Name of database used in athena | `string` | n/a | yes |
-| table\_name | Name of table used in athena | `string` | n/a | yes |
-| workgroup\_id | ID of workgroup used in athena | `string` | n/a | yes |
+| bucket\_location | S3 path where alb log is output location. | `string` | n/a | yes |
+| database\_name | Name of database used in athena. | `string` | n/a | yes |
+| table\_name | Name of table used in athena. | `string` | n/a | yes |
+| workgroup\_id | ID of workgroup used in athena. | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| query\_id | Created athena named query id |
+| query\_id | Created athena named query id. |
 
